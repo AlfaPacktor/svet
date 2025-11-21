@@ -101,7 +101,7 @@ else:
         unsafe_allow_html=True
     )
     st.markdown(
-        "<p style='text-align: center; font-family: Calibri; font-size: 1.2em;'>Прими этот скромный дар :)</p>",
+        "<p style='text-align: center; font-family: Calibri; font-size: 1.2em;'>Прими этот скромный дар :)</p>"
         unsafe_allow_html=True
     )
 
