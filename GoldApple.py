@@ -26,7 +26,7 @@ def image_to_data_uri(path: Path) -> str:
     return f"data:{mime};base64,{encoded}"
 
 # --- Настройка страницы ---
-st.set_page_config(page_title="Промокод на День Рождения", page_icon="🎉")
+st.set_page_config(page_title="Промокод на Радость", page_icon="🎉")
 
 # --- CSS для кастомизации ---
 st.markdown("""
@@ -97,7 +97,7 @@ else:
     st.balloons()
 
     st.markdown(
-        f"<h1 style='text-align: center; font-family: Calibri;'>{PERSON_NAME}, Поздравляю с неожиданным выйгрышем</h1>,</h1>",
+        f"<h1 style='text-align: center; font-family: Calibri;'>{PERSON_NAME}, Поздравляю с неожиданным выйгрышем</h1> </h1>",
         unsafe_allow_html=True
     )
     st.markdown(
