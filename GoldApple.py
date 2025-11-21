@@ -100,7 +100,7 @@ else:
     f"<h1 style='text-align: center; font-family: Calibri;'><span style='color: #D2B48C;'>{PERSON_NAME}, Поздравляю с неожиданным выйгрышем</span></h1>",
     unsafe_allow_html=True
 )
-    )
+    
     st.markdown(
         "<p style='text-align: center; font-family: Calibri; font-size: 1.2em;'><span style='color: #B8860B;'>Прими этот скромный дар :)</span></p>",
         unsafe_allow_html=True
