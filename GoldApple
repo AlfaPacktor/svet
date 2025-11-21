@@ -10,7 +10,7 @@ PROMO_CODE = "7760 00305 33840 07926"
 
 # Укажите путь к файлу в репозитории:
 # Если файл лежит рядом с app.py:
-IMAGE_FILE_NAME = "my_photo.jpg.jpg"
+IMAGE_FILE_NAME = "Apple.jfif"
 
 IMAGE_PATH = Path(__file__).parent / IMAGE_FILE_NAME
 
