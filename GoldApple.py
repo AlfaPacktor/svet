@@ -155,3 +155,4 @@ else:
     ">
         {PROMO_CODE}
     </div>
+    """, unsafe_allow_html=True)
