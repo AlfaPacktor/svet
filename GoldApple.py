@@ -6,7 +6,7 @@ import mimetypes
 # --- Константы и настройки ---
 SECRET_CODEWORD = "422536"
 PERSON_NAME = "Светланка"
-PROMO_CODE = "7760 00305 33840 07926"
+PROMO_CODE = "Получишь в конце квеста :D"
 
 # Укажите путь к файлу в репозитории:
 # Если файл лежит рядом с app.py:
@@ -26,7 +26,7 @@ def image_to_data_uri(path: Path) -> str:
     return f"data:{mime};base64,{encoded}"
 
 # --- Настройка страницы ---
-st.set_page_config(page_title="Промокод на Радость", page_icon="🎉")
+st.set_page_config(page_title="С Новым Годом!!!", page_icon="🎉")
 
 # --- CSS для кастомизации ---
 st.markdown("""
@@ -97,12 +97,12 @@ else:
     st.balloons()
 
     st.markdown(
-    f"<h1 style='text-align: center; font-family: Calibri;'><span style='color: #D2B48C;'>{PERSON_NAME}, Поздравляю с неожиданным   выйгрышем</span></h1>",
+    f"<h1 style='text-align: center; font-family: Calibri;'><span style='color: #D2B48C;'>{PERSON_NAME}, Поздравляю тебя с Новым 2026 Годом!</span></h1>",
     unsafe_allow_html=True
 )
     
     st.markdown(
-        "<p style='text-align: center; font-family: Calibri; font-size: 1.2em;'><span style='color: #B8860B;'>Прими этот скромный дар :)</span></p>",
+        "<p style='text-align: center; font-family: Calibri; font-size: 1.2em;'><span style='color: #B8860B;'>Твой первый подарок это Золотое Яблоко :)</span></p>",
         unsafe_allow_html=True
     )
 
@@ -113,7 +113,7 @@ else:
         IMAGE_DATA_URI = image_to_data_uri(IMAGE_PATH)
 
         st.markdown(
-            "<h3 style='text-align: center; font-family: Calibri;'>Твой Сертификат</h3> </h3>",
+            "<h3 style='text-align: center; font-family: Calibri;'>А дальше тебя ждет коробочка на Комоде;)</h3> </h3>",
             unsafe_allow_html=True
         )
         st.markdown(f"""
