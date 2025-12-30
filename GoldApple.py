@@ -10,7 +10,7 @@ PROMO_CODE = "Получишь в конце квеста :D"
 
 # Укажите путь к файлу в репозитории:
 # Если файл лежит рядом с app.py:
-IMAGE_FILE_NAME = "Apple.jfif"
+IMAGE_FILE_NAME = "zya.png"
 
 IMAGE_PATH = Path(__file__).parent / IMAGE_FILE_NAME
 
