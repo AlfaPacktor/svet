@@ -137,6 +137,7 @@ else:
         except Exception:
             pass
 
+    # Подарок на верхней полке в шкафу
     # Блок с промокодом
     st.markdown(
         "<h3 style='text-align: center; font-family: Calibri;'>Твой сертификат в Золотом Яблоке:</h3>",
